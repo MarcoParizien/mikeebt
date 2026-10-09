@@ -4,8 +4,9 @@ lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
 section: faits-divers
 date: 2026-10-14T07:48:00-04:00
-image: ../../assets/photos/placeholder-3.jpg
-caption: "Photo à venir. Lorem ipsum dolor sit amet."
+image: ../../assets/photos/mike-bain-chats.webp
+caption: "Mike et ses colocataires, lors de leur bain hebdomadaire. Le canard n'a pas souhaité commenter."
+imagePosition: "center 15%"
 featured: false
 ---
 
