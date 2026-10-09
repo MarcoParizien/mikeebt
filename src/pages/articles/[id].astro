@@ -1,0 +1,43 @@
+---
+import { Image } from "astro:assets";
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import Ad from "../../components/Ad.astro";
+import { getArticles } from "../../lib/articles";
+import { sections, formatDate, url } from "../../lib/site";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+  return articles.map((article) => ({ params: { id: article.id }, props: { article } }));
+}
+
+const { article } = Astro.props;
+const { title, lede, author, section, date, image, caption } = article.data;
+const { Content } = await render(article);
+const related = (await getArticles()).filter((other) => other.id !== article.id).slice(0, 3);
+---
+
+<Base title={title}>
+  <article class="article">
+    <a class="kicker" href={url(`/section/${section}/`)}>{sections[section]}</a>
+    <h1>{title}</h1>
+    <p class="lede">{lede}</p>
+    <p class="byline">Par <strong>{author}</strong> · {formatDate(date)}</p>
+    <figure>
+      <Image src={image} alt={caption} widths={[600, 1200]} sizes="(max-width: 800px) 100vw, 760px" />
+      <figcaption>{caption}</figcaption>
+    </figure>
+    <div class="article-body">
+      <Content />
+    </div>
+    <Ad headline="Sauce piquante Mikeébt" text="Maintenant interdite dans 9 provinces. Commandez avant qu'il soit trop tard." />
+  </article>
+
+  <section>
+    <h3 class="section-title">À lire aussi</h3>
+    <div class="grid">
+      {related.map((other) => <ArticleCard article={other} />)}
+    </div>
+  </section>
+</Base>

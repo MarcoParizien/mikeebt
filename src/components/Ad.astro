@@ -1,0 +1,14 @@
+---
+interface Props {
+  headline: string;
+  text: string;
+}
+
+const { headline, text } = Astro.props;
+---
+
+<aside class="ad">
+  <span class="ad-label">Publicité</span>
+  <strong>{headline}</strong>
+  <p>{text}</p>
+</aside>

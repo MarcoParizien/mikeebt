@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import ArticleCard from "../components/ArticleCard.astro";
+import Ad from "../components/Ad.astro";
+import { getArticles } from "../lib/articles";
+import { url } from "../lib/site";
+
+const articles = await getArticles();
+const hero = articles.find((article) => article.data.featured) ?? articles[0];
+const others = articles.filter((article) => article !== hero);
+const mostRead = others.slice(0, 5);
+---
+
+<Base>
+  <section class="front">
+    <ArticleCard article={hero} size="hero" />
+    <aside class="most-read">
+      <h3>Les plus lus</h3>
+      <ol>
+        {mostRead.map((article) => (
+          <li><a href={url(`/articles/${article.id}/`)}>{article.data.title}</a></li>
+        ))}
+      </ol>
+      <Ad headline="Subaru Forester 2027" text="Le véhicule officiel de la République. Financement à 0 % pour les vrais." />
+    </aside>
+  </section>
+
+  <section class="grid">
+    {others.map((article) => <ArticleCard article={article} />)}
+  </section>
+</Base>

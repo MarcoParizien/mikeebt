@@ -1,0 +1,68 @@
+---
+import "../styles/global.css";
+import { siteName, sections, breakingNews, url } from "../lib/site";
+
+interface Props {
+  title?: string;
+}
+
+const { title } = Astro.props;
+const today = new Date().toLocaleDateString("fr-CA", { dateStyle: "full", timeZone: "America/Toronto" });
+---
+
+<!doctype html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} | ${siteName}` : siteName}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span class="today">{today}</span>
+        <span>Météo : 14 °C, risque de cris en soirée</span>
+        <a class="subscribe" href="#">S'abonner</a>
+      </div>
+    </div>
+
+    <header class="masthead">
+      <div class="container">
+        <a class="logo" href={url("/")}>
+          <span class="logo-small">Le Journal de</span>
+          <span class="logo-big">Mikeébt</span>
+        </a>
+      </div>
+    </header>
+
+    <nav class="sections">
+      <div class="container sections-inner">
+        {Object.entries(sections).map(([slug, label]) => <a href={url(`/section/${slug}/`)}>{label}</a>)}
+      </div>
+    </nav>
+
+    <div class="ticker">
+      <span class="ticker-label">Dernière heure</span>
+      <div class="ticker-track">
+        <div class="ticker-items">
+          {[...breakingNews, ...breakingNews].map((item) => <span>{item}</span>)}
+        </div>
+      </div>
+    </div>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="logo-small">{siteName}</p>
+        <p>Organe de presse officiel de la République de Mikeébt. Tous droits réservés, surtout ceux de Mike.</p>
+        <p>Ce site est une parodie. Toute ressemblance avec un vrai journal est purement voulue.</p>
+      </div>
+    </footer>
+  </body>
+</html>

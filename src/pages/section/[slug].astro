@@ -1,0 +1,21 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArticleCard from "../../components/ArticleCard.astro";
+import { getArticles } from "../../lib/articles";
+import { sections, sectionSlugs, type SectionSlug } from "../../lib/site";
+
+export function getStaticPaths() {
+  return sectionSlugs.map((slug) => ({ params: { slug } }));
+}
+
+const slug = Astro.params.slug as SectionSlug;
+const articles = (await getArticles()).filter((article) => article.data.section === slug);
+---
+
+<Base title={sections[slug]}>
+  <h1 class="section-title">{sections[slug]}</h1>
+  {articles.length === 0 && <p>Aucun article pour le moment. Mike a probablement tout censuré.</p>}
+  <div class="grid">
+    {articles.map((article) => <ArticleCard article={article} />)}
+  </div>
+</Base>
