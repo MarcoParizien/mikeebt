@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const { title, lede, author, section, date, image, caption } = article.data;
+const { title, lede, author, section, date, image, caption, imagePosition } = article.data;
 const { Content } = await render(article);
 const related = (await getArticles()).filter((other) => other.id !== article.id).slice(0, 3);
 ---
@@ -25,7 +25,7 @@ const related = (await getArticles()).filter((other) => other.id !== article.id)
     <p class="lede">{lede}</p>
     <p class="byline">Par <strong>{author}</strong> · {formatDate(date)}</p>
     <figure>
-      <Image src={image} alt={caption} widths={[600, 1200]} sizes="(max-width: 800px) 100vw, 760px" />
+      <Image src={image} alt={caption} style={{ objectPosition: imagePosition }} widths={[600, 1200]} sizes="(max-width: 800px) 100vw, 760px" />
       <figcaption>{caption}</figcaption>
     </figure>
     <div class="article-body">

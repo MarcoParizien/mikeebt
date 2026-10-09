@@ -4,8 +4,9 @@ lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
 section: politique
 date: 2026-10-14T11:00:00-04:00
-image: ../../assets/photos/placeholder-8.jpg
-caption: "Photo à venir. Lorem ipsum dolor sit amet."
+image: ../../assets/photos/mike-plage.jpg
+caption: "Le président à vie, gouvernant depuis une chaise longue à Bávaro."
+imagePosition: "center 45%"
 featured: false
 ---
 

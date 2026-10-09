@@ -1,13 +1,13 @@
 ---
-title: "DERNIÈRE HEURE : Mike a maintenant un an de plus"
+title: "Golf : Mike creuse un autre trou sur le vert"
 lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-author: "La rédaction"
-section: actualites
-date: 2026-10-14T06:00:00-04:00
-image: ../../assets/photos/mike-gros-plan.jpg
-caption: "Mike, photographié ce matin d'un peu trop près."
-imagePosition: "center 60%"
-featured: true
+author: "Auteur à confirmer"
+section: sports
+date: 2026-10-14T12:20:00-04:00
+image: ../../assets/photos/mike-canadiens.jpg
+caption: "Mike, quelques secondes avant de déplacer la moitié du parcours."
+imagePosition: "center 35%"
+featured: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

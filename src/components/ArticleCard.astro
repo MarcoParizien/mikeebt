@@ -9,11 +9,11 @@ interface Props {
 }
 
 const { article, size = "card" } = Astro.props;
-const { title, lede, section, image, caption } = article.data;
+const { title, lede, section, image, caption, imagePosition } = article.data;
 ---
 
 <a class={`article-card ${size}`} href={url(`/articles/${article.id}/`)}>
-  <Image src={image} alt={caption} widths={size === "hero" ? [600, 1200] : [400, 800]} sizes={size === "hero" ? "(max-width: 900px) 100vw, 800px" : "(max-width: 600px) 100vw, 400px"} />
+  <Image src={image} alt={caption} style={{ objectPosition: imagePosition }} widths={size === "hero" ? [600, 1200] : [400, 800]} sizes={size === "hero" ? "(max-width: 900px) 100vw, 800px" : "(max-width: 600px) 100vw, 400px"} />
   <div class="article-card-text">
     <span class="kicker">{sections[section]}</span>
     <h2>{title}</h2>

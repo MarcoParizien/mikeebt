@@ -7,6 +7,7 @@ export const sections = {
   auto: "Auto",
   gastronomie: "Gastronomie",
   sante: "Santé",
+  sports: "Sports",
   "faits-divers": "Faits divers",
   palmares: "Palmarès",
   meteo: "Météo",

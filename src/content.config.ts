@@ -14,6 +14,7 @@ const articles = defineCollection({
       date: z.coerce.date(),
       image: image(),
       caption: z.string(),
+      imagePosition: z.string().default("center"),
       featured: z.boolean().default(false),
     }),
 });

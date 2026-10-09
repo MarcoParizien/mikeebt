@@ -4,8 +4,9 @@ lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
 section: gastronomie
 date: 2026-10-14T11:45:00-04:00
-image: ../../assets/photos/placeholder-9.jpg
-caption: "Photo à venir. Lorem ipsum dolor sit amet."
+image: ../../assets/photos/mike-hot-dog.jpg
+caption: "Mike, à la 4e heure de son hot-dog."
+imagePosition: "center 30%"
 featured: false
 ---
 

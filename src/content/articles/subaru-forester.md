@@ -4,8 +4,9 @@ lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
 section: auto
 date: 2026-10-14T09:05:00-04:00
-image: ../../assets/photos/placeholder-5.jpg
-caption: "Photo à venir. Lorem ipsum dolor sit amet."
+image: ../../assets/photos/mike-subaru.jpg
+caption: "Mike et sa Subaru Forester, dans leur habitat naturel."
+imagePosition: "center"
 featured: false
 ---
 

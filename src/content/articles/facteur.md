@@ -1,13 +1,13 @@
 ---
-title: "DERNIÈRE HEURE : Mike a maintenant un an de plus"
+title: "Reconversion : Mike quitte l'électricité pour devenir facteur"
 lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-author: "La rédaction"
+author: "Auteur à confirmer"
 section: actualites
-date: 2026-10-14T06:00:00-04:00
-image: ../../assets/photos/mike-gros-plan.jpg
-caption: "Mike, photographié ce matin d'un peu trop près."
-imagePosition: "center 60%"
-featured: true
+date: 2026-10-14T13:05:00-04:00
+image: ../../assets/photos/mike-facteur.webp
+caption: "Mike, lors de sa première journée de livraison."
+imagePosition: "center 20%"
+featured: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

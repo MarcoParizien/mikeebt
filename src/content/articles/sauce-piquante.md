@@ -4,8 +4,9 @@ lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
 section: sante
 date: 2026-10-14T08:30:00-04:00
-image: ../../assets/photos/placeholder-4.jpg
-caption: "Photo à venir. Lorem ipsum dolor sit amet."
+image: ../../assets/photos/mike-monster.jpg
+caption: "Mike, présenté ici avec un produit qui, lui, est approuvé par Santé Canada."
+imagePosition: "center 45%"
 featured: false
 ---
 

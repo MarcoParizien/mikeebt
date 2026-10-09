@@ -68,6 +68,7 @@ img { display: block; width: 100%; height: auto; }
 .byline { color: var(--muted); font-size: 0.9rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 20px; }
 .byline strong { color: var(--red); }
 figure { margin-bottom: 24px; }
+figure img { aspect-ratio: 16 / 10; object-fit: cover; }
 figcaption { font-size: 0.85rem; color: var(--muted); padding-top: 6px; }
 .article-body { font-size: 1.1rem; display: grid; gap: 1em; }
 
@@ -79,3 +80,4 @@ figcaption { font-size: 0.85rem; color: var(--muted); padding-top: 6px; }
   .front { grid-template-columns: 1fr; }
   .topbar-inner span:nth-child(2) { display: none; }
 }
+.article-body img { max-height: 70vh; width: auto; max-width: 100%; margin: 0 auto; }
