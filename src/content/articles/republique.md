@@ -1,5 +1,5 @@
 ---
-title: "La République de Mikeébt réélit son président à vie"
+title: "La République de mikeebt réélit son président à vie"
 lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
 section: politique

@@ -1,4 +1,4 @@
-# Le Journal de Mikeébt
+# Le Journal de mikeebt
 
 Faux journal (parodie du Journal de Montréal) pour l'anniversaire de Mike, le 14 octobre.
 

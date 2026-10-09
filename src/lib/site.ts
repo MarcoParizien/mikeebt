@@ -1,4 +1,4 @@
-export const siteName = "Le Journal de Mikeébt";
+export const siteName = "Le Journal de mikeebt";
 
 export const sections = {
   actualites: "Actualités",
@@ -19,7 +19,7 @@ export const breakingNews = [
   "Mike a maintenant un an de plus",
   "Avertissement de cris en vigueur pour tout le secteur",
   "Santé Canada émet un rappel urgent",
-  "La République de Mikeébt en pleine crise constitutionnelle",
+  "La République de mikeebt en pleine crise constitutionnelle",
 ];
 
 export function url(path: string) {
