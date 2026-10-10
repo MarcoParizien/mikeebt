@@ -66,7 +66,14 @@ img { display: block; width: 100%; height: auto; }
 .article h1 { font-family: var(--headline); font-weight: 900; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.05; margin: 8px 0 12px; }
 .lede { font-size: 1.25rem; font-weight: 700; margin-bottom: 12px; }
 .byline { color: var(--muted); font-size: 0.9rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 8px 0; margin-bottom: 20px; }
+.byline { display: flex; align-items: center; gap: 12px; }
 .byline strong { color: var(--red); }
+.author-photo { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; }
+.article-body h2 { font-family: var(--headline); font-weight: 900; text-transform: uppercase; font-size: 1.3rem; border-bottom: 3px solid var(--red); padding-bottom: 4px; margin-top: 0.5em; }
+.article-body table { border-collapse: collapse; width: 100%; font-size: 1rem; }
+.article-body th, .article-body td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #ddd; }
+.article-body th { background: var(--black); color: #fff; font-family: var(--headline); text-transform: uppercase; }
+.article-body td:last-child { font-weight: 700; color: var(--red); white-space: nowrap; }
 figure { margin-bottom: 24px; }
 figure img { aspect-ratio: 16 / 10; object-fit: cover; }
 figcaption { font-size: 0.85rem; color: var(--muted); padding-top: 6px; }
