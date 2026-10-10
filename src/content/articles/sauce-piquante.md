@@ -1,6 +1,6 @@
 ---
 title: "« Je ne sens plus mon petit bout depuis deux semaines »"
-lede: "L'agence fédérale demande à la population de ne pas consommer le produit, de ne pas l'ouvrir et d'éviter tout contact visuel avec la bouteille."
+lede: "Santé Canada rappelle d'urgence la sauce piquante de mikeebt et demande à la population de ne pas la consommer, de ne pas l'ouvrir et d'éviter tout contact visuel avec la bouteille."
 author: "Gab"
 authorPhoto: ../../assets/photos/auteur-gab.jpg
 section: sante
