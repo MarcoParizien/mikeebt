@@ -3,15 +3,12 @@ export const siteName = "Le Journal de mikeebt";
 export const sections = {
   actualites: "Actualités",
   politique: "Politique",
-  societe: "Société",
   auto: "Auto",
   gastronomie: "Gastronomie",
   sante: "Santé",
   sports: "Sports",
-  spectacles: "Spectacles",
   "faits-divers": "Faits divers",
   palmares: "Palmarès",
-  meteo: "Météo",
 } as const;
 
 export type SectionSlug = keyof typeof sections;
