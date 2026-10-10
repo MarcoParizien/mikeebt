@@ -11,9 +11,11 @@ interface Props {
 const { headline, text, image } = Astro.props;
 ---
 
-<aside class="ad">
-  <span class="ad-label">Publicité</span>
-  {image && <Image src={image} alt={headline} widths={[400, 800]} sizes="(max-width: 800px) 100vw, 760px" />}
-  <strong>{headline}</strong>
-  <p>{text}</p>
+<aside class:list={["ad", { "ad-banner": image }]}>
+  {image && <Image src={image} alt={headline} widths={[500, 1000]} sizes="(max-width: 600px) 100vw, 460px" />}
+  <div class="ad-text">
+    <span class="ad-label">Publicité</span>
+    <strong>{headline}</strong>
+    <p>{text}</p>
+  </div>
 </aside>
