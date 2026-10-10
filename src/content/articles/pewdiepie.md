@@ -1,13 +1,12 @@
 ---
-title: "EXCLUSIF : il prend son bain avec ses chats"
+title: "OFFICIEL : Mike est le plus grand fan de PewDiePie de la planète"
 lede: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 author: "Auteur à confirmer"
-section: faits-divers
-date: 2026-10-14T07:48:00-04:00
-image: ../../assets/photos/mike-bain-chats.webp
-caption: "Mike et ses colocataires, lors de leur bain hebdomadaire. Le canard n'a pas souhaité commenter."
-imagePosition: "center 15%"
-featured: true
+section: spectacles
+date: 2026-10-14T08:05:00-04:00
+image: ../../assets/photos/placeholder-pewdiepie.jpg
+caption: "Photo à venir. Lorem ipsum dolor sit amet."
+featured: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

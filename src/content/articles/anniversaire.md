@@ -7,7 +7,7 @@ date: 2026-10-14T06:00:00-04:00
 image: ../../assets/photos/mike-gros-plan.jpg
 caption: "Mike, photographié ce matin d'un peu trop près."
 imagePosition: "center 60%"
-featured: true
+featured: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
