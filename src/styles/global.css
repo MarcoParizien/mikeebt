@@ -78,6 +78,7 @@ figure { margin-bottom: 24px; }
 figure img { aspect-ratio: 16 / 10; object-fit: cover; }
 figcaption { font-size: 0.85rem; color: var(--muted); padding-top: 6px; }
 .article-body { font-size: 1.1rem; display: grid; gap: 1em; }
+.article-body ul { padding-left: 1.4em; display: grid; gap: 0.4em; }
 
 .footer { background: var(--black); color: #aaa; padding: 32px 0; margin-top: 40px; font-size: 0.85rem; }
 .footer p + p { margin-top: 8px; }
