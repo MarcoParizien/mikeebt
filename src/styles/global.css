@@ -89,3 +89,8 @@ figcaption { font-size: 0.85rem; color: var(--muted); padding-top: 6px; }
   .topbar-inner span:nth-child(2) { display: none; }
 }
 .article-body img { max-height: 70vh; width: auto; max-width: 100%; margin: 0 auto; }
+
+.recall { border: 2px solid var(--red); border-left-width: 8px; background: var(--grey); padding: 16px 20px; font-size: 1rem; }
+.recall-title { font-family: var(--headline); font-weight: 900; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+.recall dt { font-weight: 700; margin-top: 8px; }
+.recall dd { margin: 0; }
