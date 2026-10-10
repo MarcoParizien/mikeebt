@@ -6,6 +6,7 @@ import ArticleCard from "../../components/ArticleCard.astro";
 import Ad from "../../components/Ad.astro";
 import { getArticles } from "../../lib/articles";
 import { sections, formatDate, url } from "../../lib/site";
+import hotSauce from "../../assets/photos/sauce-piquante-paysage.webp";
 
 export async function getStaticPaths() {
   const articles = await getCollection("articles");
@@ -34,7 +35,7 @@ const related = (await getArticles()).filter((other) => other.id !== article.id)
     <div class="article-body">
       <Content />
     </div>
-    <Ad headline="Sauce piquante mikeebt" text="Maintenant interdite dans 9 provinces. Commandez avant qu'il soit trop tard." />
+    <Ad image={hotSauce} headline="Sauce piquante mikeebt" text="Maintenant interdite dans 9 provinces. Commandez avant qu'il soit trop tard." />
   </article>
 
   <section>

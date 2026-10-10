@@ -1,14 +1,19 @@
 ---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
 interface Props {
   headline: string;
   text: string;
+  image?: ImageMetadata;
 }
 
-const { headline, text } = Astro.props;
+const { headline, text, image } = Astro.props;
 ---
 
 <aside class="ad">
   <span class="ad-label">Publicité</span>
+  {image && <Image src={image} alt={headline} widths={[400, 800]} sizes="(max-width: 800px) 100vw, 760px" />}
   <strong>{headline}</strong>
   <p>{text}</p>
 </aside>

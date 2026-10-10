@@ -5,9 +5,9 @@ author: "Gab"
 authorPhoto: ../../assets/photos/auteur-gab.jpg
 section: sante
 date: 2026-10-14T08:30:00-04:00
-image: ../../assets/photos/sauce-piquante.webp
+image: ../../assets/photos/sauce-piquante-paysage.webp
 caption: "Le produit visé par le rappel. Santé Canada recommande de ne pas regarder l'étiquette trop longtemps."
-imagePosition: "center 62%"
+imagePosition: "center"
 featured: false
 ---
 
