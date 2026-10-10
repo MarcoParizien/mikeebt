@@ -13,8 +13,8 @@ featured: false
 
 Santé Canada a émis hier soir un avis de rappel visant la sauce piquante artisanale de mikeebt. Selon l'agence, plusieurs consommateurs auraient été affectés après en avoir consommé, parfois une seule goutte.
 
-<div class="recall">
-  <p class="recall-title">Avis de rappel</p>
+<div class="infobox">
+  <p class="infobox-title">Avis de rappel</p>
   <dl>
     <dt>Produit</dt>
     <dd>Sauce piquante MIKEEBT « I Pee In Pools », 148 mL</dd>
