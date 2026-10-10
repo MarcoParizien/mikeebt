@@ -1,5 +1,5 @@
 ---
-title: "RAPPEL URGENT : Santé Canada retire la sauce piquante de mikeebt des tablettes"
+title: "« Je ne sens plus mon petit bout depuis deux semaines »"
 lede: "L'agence fédérale demande à la population de ne pas consommer le produit, de ne pas l'ouvrir et d'éviter tout contact visuel avec la bouteille."
 author: "Gab"
 authorPhoto: ../../assets/photos/auteur-gab.jpg
