@@ -35,10 +35,6 @@ Un consommateur de Laval, qui a requis l'anonymat, est plus inquiet : « Je ne s
 
 De son côté, la direction d'une piscine municipale affirme n'avoir « rien remarqué d'anormal », mais dit demeurer vigilante.
 
-![Mike et une canette de Monster](../../assets/photos/mike-monster.jpg)
-
-*Mike, présenté ici avec un produit qui, lui, est approuvé par Santé Canada.*
-
 ## Mike porte la décision en appel
 
 Joint par notre équipe, Mike a annoncé son intention de contester le rappel. « Elle est pas si forte que ça », a-t-il déclaré, les yeux pleins d'eau.
