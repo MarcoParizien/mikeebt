@@ -1,7 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
 import ArticleCard from "../components/ArticleCard.astro";
-import Ad from "../components/Ad.astro";
 import { getArticles } from "../lib/articles";
 import { url } from "../lib/site";
 
@@ -21,7 +20,6 @@ const mostRead = others.slice(0, 5);
           <li><a href={url(`/articles/${article.id}/`)}>{article.data.title}</a></li>
         ))}
       </ol>
-      <Ad headline="Subaru Forester 2027" text="Le véhicule officiel de la République. Financement à 0 % pour les vrais." />
     </aside>
   </section>
 
