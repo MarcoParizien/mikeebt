@@ -5,9 +5,9 @@ author: "Gab"
 authorPhoto: ../../assets/photos/auteur-gab.jpg
 section: faits-divers
 date: 2026-10-14T05:30:00-04:00
-image: ../../assets/photos/pizza-crevettes.jpg
+image: ../../assets/photos/pizza-crevettes-paysage.jpg
 caption: "La scène, telle que découverte par les premiers témoins. L'horloge du four indiquait 6 h 37."
-imagePosition: "center 100%"
+imagePosition: "center"
 featured: true
 ---
 
