@@ -8,7 +8,7 @@ date: 2026-10-14T07:48:00-04:00
 image: ../../assets/photos/mike-bain-chats.webp
 caption: "Mike et ses colocataires, lors de leur bain hebdomadaire. Le canard n'a pas souhaité commenter."
 imagePosition: "center 15%"
-featured: true
+featured: false
 ---
 
 Selon nos informations, Mike aurait pris l'habitude de prendre son bain avec ses chats. « C'est pour les laver », affirme-t-il. Une version que les principaux intéressés contestent vivement.
